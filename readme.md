@@ -10,8 +10,10 @@
 >2.Miao-Yunzai\plugins目录下git中执行如下指令
 >git clone https://gitee.com/kongkongjiang/miaoyu-plugin.git
 ## 安装依赖
->在桌面或Miao—yunzai根目录用git或cmd执行
+>在Miao—yunzai根目录用git或cmd执行
 >npm install simple-git
+>或者npm install simple-git
+>如还无效yarn add simple-git
 ## 如何使用在线api
 >用vscode打开miaoyu-plugin\apps文件夹将js里的
 >http://127.0.0.1:5187修改即可
