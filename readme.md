@@ -6,7 +6,7 @@
 > API支持：Yuapi
 > 特别感谢：宇宇
 ## 介绍
-本插件提供一部分查询功能并适配云崽v3/v4，需要搭配Miaoyuapi使用
+本插件提供一部分查询功能并适配云崽v3/v4，需要搭配Miaoyuapi使用！
 ## 下载方法
 > 1. 放入plugins文件夹内即可
 > 2. `Miao-Yunzai\plugins`目录下git中执行如下指令
