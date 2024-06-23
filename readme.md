@@ -9,8 +9,8 @@
 本插件提供一部分查询功能并适配云崽v3/v4，需要搭配Miaoyuapi使用！（建议配合bilibili开放平台使用，v4请使用dev通道）
 ## 下载方法
 > 1. 放入plugins文件夹内即可
-> 2. `Miao-Yunzai\plugins`目录下git中执行如下指令
-> `git clone https://gitee.com/kongkongjiang/miaoyu-plugin.git`
+> 2. `Miao-Yunzai`根目录下git中执行如下指令
+> `git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/miaoyu-plugin/`
 ## 安装依赖（dev版本安装）
 > 1. 在Miao-yunzai或Miaoyu-plugin目录用git或cmd执行
 > `npm install simple-git`或`npm install -g simple-git`
