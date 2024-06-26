@@ -12,7 +12,7 @@
 > 2. `Miao-Yunzai`根目录下git中执行如下指令
 > `git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/miaoyu-plugin/`
 ## 安装其它插件（dev版本安装）
-> 1. https://gitee.com/yoimiya-kokomi/Miao-Yunzai/tree/system/ 请安装System-Plugin否则更新功能无法使用！
+> 1. https://gitee.com/yoimiya-kokomi/Miao-Yunzai/tree/system  请安装System-Plugin否则更新功能无法使用！
 > 2. 主分支免安装System-Plugin
 ## 如何使用在线api
 > 用vscode打开`miaoyu-plugin\apps`文件夹将js里的
