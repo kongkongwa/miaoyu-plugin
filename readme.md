@@ -10,7 +10,9 @@
 ## 下载方法
 > 1. 下载源码放入plugins文件夹内即可
 > 2. `Miao-Yunzai`根目录下git中执行如下指令
-> `git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/miaoyu-plugin/`
+```
+git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/miaoyu-plugin/
+```
 ## 安装其它插件（dev版本安装）
 > 1. https://github.com/yunzai-org/system  请安装System-Plugin否则更新功能无法使用！
 > 2. 主分支免安装System-Plugin
