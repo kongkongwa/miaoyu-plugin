@@ -18,7 +18,7 @@ git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/
 > 2. 主分支免安装System-Plugin
 ## 如何使用在线api
 > 用vscode打开`miaoyu-plugin\apps`文件夹将js里的
-> http://127.0.0.1:5187修改即可
+> http://127.0.0.1:5187修改即可（可使用http://beta.xuemiao.cc）
 ## 功能
 >  1. YUAPI帮助
 >  2. YUAPI设置帮助
