@@ -13,12 +13,6 @@
 ```
 git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/miaoyu-plugin/
 ```
-## 安装依赖（dev版本安装）
-> 1. 在Miao-yunzai或Miaoyu-plugin目录用git或cmd执行
-> `npm install simple-git`或`npm install -g simple-git`
-> 2. 如果依然报错请尝试
-> `npm install -g yarn`和`yarn add simple-git`和`pnpm install`
-> 3. 主分支免安装依赖
 ## 如何使用在线api
 > 1. 用vscode打开`miaoyu-plugin\apps`文件夹将js里的
 > http://127.0.0.1:5187修改即可
