@@ -10,8 +10,14 @@
 ## 下载方法
 > 1. 下载源码放入plugins文件夹内即可
 > 2. `Miao-Yunzai`根目录下git中执行如下指令
+
+Gitee:
 ```
 git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/miaoyu-plugin/
+```
+Github：
+```
+git clone --depth=1 https://github.com/kongkongwa/miaoyu-plugin ./plugins/Lain-plugin
 ```
 ## 如何使用在线api
 > 1. 用vscode打开`miaoyu-plugin\apps`文件夹将js里的
