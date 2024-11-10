@@ -67,6 +67,12 @@ export class zs extends plugin {
           reg: '^点赞走势(.*)$',
           /** 执行方法 */
           fnc: 'dzzs'
+        },
+        {
+          /** 命令正则匹配 */
+          reg: '^全区活动$',
+          /** 执行方法 */
+          fnc: 'qqhd'
         }
       ]
     })
@@ -215,5 +221,18 @@ export class zs extends plugin {
     await e.reply(segment.image(url))
     }
   }
+
+
+  async qqhd (e) {
+    /** e.msg 用户的命令消息 */
+    logger.info('[用户命令]', e.msg)
+
+    let url = 'http://127.0.0.1:5187/api/BiliLive/GetAllPartyState'
+    /** 调用接口获取数据 */
+
+    /** 最后回复消息 */
+    await e.reply(segment.image(url))
+  }
+
   
 }
