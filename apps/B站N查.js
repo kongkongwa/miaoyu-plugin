@@ -148,6 +148,18 @@ export class nc extends plugin {
         },
         {
           /** 命令正则匹配 */
+          reg: '^查封禁记录(.*)$',
+          /** 执行方法 */
+          fnc: 'cfjjl'
+        },
+        {
+          /** 命令正则匹配 */
+          reg: '^查警告记录(.*)$',
+          /** 执行方法 */
+          fnc: 'cjgjl'
+        },
+        {
+          /** 命令正则匹配 */
           reg: '^粉丝走势(.*)$',
           /** 执行方法 */
           fnc: 'fszsq'
@@ -509,6 +521,39 @@ export class nc extends plugin {
     await e.reply(segment.image(url))
     }
   }
+
+
+  async cfjjl (e) {
+    /** e.msg 用户的命令消息 */
+    logger.info('[用户命令]', e.msg)
+    let msg = e.msg.replace("查封禁记录","").trim()
+    msg = msg.split(" ")
+    if(msg['length']==1){
+
+        let url = `http://127.0.0.1:5187/api/BiliLive/GetUserCutOff?sign=${msg[0]}`
+       /** 调用接口获取数据 */
+
+    /** 最后回复消息 */
+    await e.reply(segment.image(url))
+    }
+  }
+
+
+  async cjgjl (e) {
+    /** e.msg 用户的命令消息 */
+    logger.info('[用户命令]', e.msg)
+    let msg = e.msg.replace("查警告记录","").trim()
+    msg = msg.split(" ")
+    if(msg['length']==1){
+
+        let url = `http://127.0.0.1:5187/api/BiliLive/GetUserWarrning?sign=${msg[0]}`
+       /** 调用接口获取数据 */
+
+    /** 最后回复消息 */
+    await e.reply(segment.image(url))
+    }
+  }
+
 
   async crc (e) {
     /** e.msg 用户的命令消息 */
