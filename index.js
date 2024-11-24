@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 
 logger.info('--------- >_< ---------')
-logger.info('Miaoyu-plugin初始化v1.7')
+logger.info('Miaoyu-plugin初始化v1.8')
 logger.info('-----------------------')
 
 const files = fs.readdirSync('./plugins/miaoyu-plugin/apps').filter(file => file.endsWith('.js'))
@@ -28,7 +28,7 @@ for (let i in files) {
 }
 
 logger.mark('Miaoyu-plugin加载成功~ by小狐狸空空酱')
-logger.mark('欢迎使用Miaoyu-plugin 当前版本号v1.7')
+logger.mark('欢迎使用Miaoyu-plugin 当前版本号v1.8')
 logger.mark('API支持：Yuapi by宇宇')
 
 
