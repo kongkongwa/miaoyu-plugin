@@ -17,7 +17,7 @@ git clone --depth=1 https://gitee.com/kongkongjiang/miaoyu-plugin.git ./plugins/
 ```
 Github：
 ```
-git clone --depth=1 https://github.com/kongkongwa/miaoyu-plugin.git ./plugins/Lain-plugin
+git clone --depth=1 https://github.com/kongkongwa/miaoyu-plugin.git ./plugins/miaoyu-plugin
 ```
 ## 如何使用在线api
 > 1. 用vscode打开`miaoyu-plugin\apps`文件夹将js里的
