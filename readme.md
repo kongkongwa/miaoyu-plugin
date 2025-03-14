@@ -1,10 +1,10 @@
 ## Miaoyu-plugin
-> 作者：小狐狸空空酱
-> B站主页：https://space.bilibili.com/489676359
-> 喜欢的朋友可以给小狐狸点点关注吗~
-> 若有bug可以在API群反馈：
-> API支持：Yuapi
-> 特别感谢：宇宇
+作者：小狐狸空空酱
+<br> B站主页：https://space.bilibili.com/489676359
+<br> 喜欢的朋友可以给小狐狸点点关注吗~
+<br> 若有bug可以在API群反馈：
+<br> API支持：Yuapi
+<br> 特别感谢：宇宇
 ## 介绍
 本插件提供一部分查询功能并适配云崽v3/v4，需要搭配Miaoyuapi使用！（建议配合bilibili开放平台使用）
 ## 下载方法
