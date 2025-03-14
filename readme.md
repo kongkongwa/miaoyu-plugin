@@ -20,8 +20,8 @@ Github：
 git clone --depth=1 https://github.com/kongkongwa/miaoyu-plugin.git ./plugins/miaoyu-plugin/
 ```
 ## 如何使用在线api
-> 1. 用vscode打开`miaoyu-plugin\apps`文件夹将js里的
-http://127.0.0.1:5187修改即可（需要本地化部署Miaoyuapi）
+> 1. 用vscode打开`miaoyu-plugin\apps`
+###### 文件夹将js里的http://127.0.0.1:5187修改即可（需要本地化部署Miaoyuapi）
 > 2. 可b站私信获取公开API
 ## 功能
 >  1. YUAPI帮助
