@@ -1,5 +1,5 @@
 ## Miaoyu-plugin
-> 作者：小狐狸空空酱
+作者：小狐狸空空酱
 <br> B站主页：https://space.bilibili.com/489676359
 <br> 喜欢的朋友可以给小狐狸点点关注吗~
 <br> 若有bug可以在API群反馈：
